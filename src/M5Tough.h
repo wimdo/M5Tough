@@ -80,7 +80,7 @@
     #include "utility/CommUtil.h"
     #include "AXP192.h"
     #include "RTC.h"
-    #include "speaker.h"
+    #include "Speaker.h"
 
 
     class M5Tough
