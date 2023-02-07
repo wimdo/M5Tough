@@ -80,6 +80,7 @@
     #include "utility/CommUtil.h"
     #include "AXP192.h"
     #include "RTC.h"
+    #include "speaker.h"
 
 
     class M5Tough
@@ -114,6 +115,8 @@
         CommUtil I2C;
 
         RTC  Rtc;
+	
+	Speaker Spk;
 
         /**
          * Functions have been moved to Power class for compatibility.
